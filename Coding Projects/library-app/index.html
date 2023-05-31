@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+      <header>
+        <h1>My Library</h1>
+      </header>
+
+      <form>
+            <label for="bookTitle">Title:</label>
+            <input type="text" class="form-control" id="bookTitle" required>
+            
+            <label for="author">Author:</label>
+            <input type="text" class="form-control" id="author" required>
+
+            <label for="pages">Pages:</label>
+            <input type="number" id="pages" required />
+  
+            <label for="read">Read:</label>
+            <input type="checkbox" id="read" />
+  
+            <button type="submit">Add Book</button>
+            <br>
+      </form>
+
+      <table id="bookTable">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Pages</th>
+            <th>Read</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- book data will be inserted here -->
+        </tbody>
+      </table>
+    </body>
+
+    <script src="script.js"></script>
+
+
+</html>
