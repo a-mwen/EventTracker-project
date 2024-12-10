@@ -42,6 +42,8 @@ ini_set('display_errors', 1);
     <head>
         <title>Product List</title>
         <link rel="stylesheet" href="../public/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     </head>
     <body>
         <div class="product-container">
@@ -88,6 +90,11 @@ ini_set('display_errors', 1);
             <!-- Back to Welcome Page -->
             <div class="back-button">
                 <a href="../authentication/welcome.php" class="back-link">Back to Welcome Page</a>
+            </div>
+            <div class="chat-icon" style="position: fixed; bottom: 20px; right: 20px;">
+                <a href="../Chatbot/index.php" style="text-decoration: none;">
+                    <div style="background-color: #007bff; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); transition: background-color 0.3s;">
+                        <i class="fas fa-comments" style="font-size: 24px;"></i>
             </div>
         </div>
     </body>

@@ -1,3 +1,10 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Match background color */
+    color: #333; /* Default text color */
+}
+
 /* Product Page Styles */
 .product-container {
     display: flex;
@@ -48,6 +55,7 @@ tr:hover {
         padding: 10px; /* Less padding for small screens */
     }
 }
+
 /* Pagination Styles */
 .pagination {
     margin: 20px 0;
@@ -89,6 +97,8 @@ tr:hover {
 .back-link:hover {
     background-color: #0056b3; 
 }
+
+/* General Link Styles */
 a {
     display: inline-block;
     margin: 10px 0;
@@ -159,23 +169,6 @@ form button:hover {
     background-color: #0056b3; 
 }
 
-/* Back Button Styles */
-.back-button {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.back-link {
-    padding: 10px 20px;
-    background-color: #007bff; /* Change this color as needed */
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.back-link:hover {
-    background-color: #0056b3; /* Darker shade for hover */
-}
 /* Event Management Styles */
 .event-container {
     padding: 20px;
@@ -223,4 +216,67 @@ form button:hover {
 
 .nav-button:hover {
     background-color: #0056b3;
+}
+
+/* New Styles for Registration Page */
+.container {
+    max-width: 600px; /* Limit the width of the container */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.container h1 {
+    text-align: center; /* Center the heading */
+    color: #007bff; /* Primary color for headings */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.alert {
+    background-color: #dff0d8; /* Light green background */
+    color: #3c763d; /* Dark green text */
+    padding: 10px; /* Padding for alert */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below alert */
+}
+
+.event-description {
+    margin-bottom: 20px; /* Space below description */
+    font-style: italic; /* Italic text */
+    color: #555; /* Dark gray text */
+    text-align: center; /* Center the description */
+}
+
+.countdown {
+    font-size: 1.2em; /* Larger font size */
+    color: #ff5722; /* Orange color for countdown */
+    text-align: center; /* Center the countdown */
+    margin: 20px 0; /* Space above and below */
+}
+
+.register-button {
+    padding: 10px 20px; /* Padding for button */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for button */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.register-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.back-link {
+    display: block; /* Block display for back link */
+    text-align: center; /* Center the back link */
+    margin-top: 20px; /* Space above back link */
+    color: white; /* Primary color */
+    text-decoration: none; /* Remove underline */
+    font-family: Arial, sans-serif;
+
 }

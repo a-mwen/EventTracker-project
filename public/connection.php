@@ -3,7 +3,7 @@ $host = 'localhost';
 $db = 'project-WAD';
 $user = 'postgres';
 $pass = '317!!Musha4lyf';
-$port = '5437'; // Make sure this is the correct port number for your PostgreSQL
+$port = '5437'; 
 
 try {
     // Create a new PDO connection to PostgreSQL
